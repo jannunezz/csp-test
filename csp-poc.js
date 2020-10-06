@@ -1,3 +1,4 @@
-window.addEventListener('load', function () {
-  document.getElementById("container").innerHTML = "Javascript hosted on GitHub here!";
-});
+  var p = document.createElement("p");
+  var t = document.createTextNode("Javascript hosted on same origin here!");
+  p.appendChild(t);
+  document.body.appendChild(p);
